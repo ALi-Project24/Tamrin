@@ -3,6 +3,5 @@ function isPalindrome(str) {
   let reversedStr = cleanedStr.split("").reverse().join("");
   return cleanedStr === reversedStr;
 }
-
 console.log(isPalindrome("racecar"));
 console.log(isPalindrome("headphone"));
